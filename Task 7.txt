@@ -1,0 +1,34 @@
+void main (){
+  int id = 1012 , unitConsumed = 100; 
+  var name = 'Dany';
+  double chargePerUnit = 0.0 , netAmount = 0.0 , totalAmount = 0.0;
+  if (unitConsumed<=199)
+  {
+    chargePerUnit = 1.20;
+  }
+  else if(unitConsumed>=200 && unitConsumed<=400)
+  {
+    chargePerUnit =1.50;
+  }
+    else if(unitConsumed>=600 && unitConsumed<=600)
+  {
+    chargePerUnit =1.80;
+  }
+    else if(unitConsumed<=600)
+  {
+    chargePerUnit =2.00;
+  }
+    else
+    {
+      print("Error");
+    }
+  totalAmount = unitConsumed * chargePerUnit;
+  double tax = (totalAmount * 15) / 100;
+  netAmount =totalAmount+tax;
+  print("Customer Name: $name");
+  print("Customer IDNO: $id");
+  print("Unit Consumed: $unitConsumed");
+  print("Total Amount: @$chargePerUnit per unit:  $totalAmount");
+  print("Net Amount: $netAmount");
+}
+

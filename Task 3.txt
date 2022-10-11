@@ -1,0 +1,13 @@
+void main() {
+    int classes =16 , attendance = 10;
+  double percentage = attendance/classes*100;
+  print("Percentage:$percentage%");
+  if (percentage>=75)
+  {
+    print("Sit in Exam");
+  }
+  else
+  {
+   print("Not allowed to sit in exam");  
+  }
+}

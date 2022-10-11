@@ -1,0 +1,27 @@
+void main() {
+        int daniyal = 50 , haris = 15 , abdullah = 20;
+  if(haris > daniyal && haris > abdullah)
+  {
+    print ("Haris is Oldest");
+  }
+  else if (abdullah>daniyal && abdullah>haris) 
+  {
+    print("Abdullah is oldest");
+  }
+  else
+  {
+  print("Daniyal is oldest");  
+  }
+  if (daniyal<haris && daniyal<abdullah)
+  {
+    print("Daniyal is youngest");
+  }
+  else if (abdullah<daniyal && abdullah<haris)
+  {
+    print("Abdullah is youngest");
+  }
+  else
+  {
+    print("Haris is youngest");
+  }
+}

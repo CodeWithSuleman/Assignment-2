@@ -1,0 +1,11 @@
+void main() {
+    int length =36 , breadth = 36;
+  if(length==breadth)
+  {
+    print("Square");
+  }
+  else
+  {
+    print("Rectangle");
+  }
+}

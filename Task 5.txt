@@ -1,0 +1,29 @@
+void main() {
+   num temperature = -36;
+  if(temperature<0)
+  {
+    print("Freezing");
+  }
+  
+ else if(temperature >=0 && temperature<=10)
+  {
+    print("Its very cold");
+  }
+   
+  else if(temperature>=10 && temperature<=20)
+  {
+    print("Cold");
+  }
+  else if(temperature>=20 && temperature<=30)
+  {
+    print("Normal");
+  }
+  else if(temperature>=30 && temperature<=40)
+  {
+    print("Hot");
+  }
+  else 
+  {
+    print("Its very hot");
+  }
+}
